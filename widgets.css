@@ -1,0 +1,60 @@
+/* Video Container */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Sidebar Widget - Find Agent */
+.find-agent-widget {
+    background: linear-gradient(135deg, #a2863a, #8a6d2b);
+    /* Gold/Brown gradient */
+    color: white;
+    text-align: left;
+    /* Aligned left as per screen */
+    padding: 30px 25px;
+}
+
+.find-agent-widget h3 {
+    color: white;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+.find-agent-widget p {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+}
+
+.btn-connect-agent {
+    background-color: #c4a048;
+    /* Lighter gold for button */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 1rem;
+}
+
+.btn-connect-agent:hover {
+    background-color: #b08d3a;
+}

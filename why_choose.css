@@ -1,0 +1,105 @@
+/* Why Choose Us Section */
+.why-choose-us {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    /* Adding a subtle texture or pattern if possible, for now just a light grey background */
+    background-image: radial-gradient(#e0e0e0 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.why-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.why-header h2 {
+    background: #4169E1;
+    /* Royal Blue background for the header as seen in image */
+    color: white;
+    padding: 5px 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.feature-card {
+    background: white;
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.icon-orange {
+    color: #FFA500;
+}
+
+/* Orange */
+.icon-red {
+    color: #FF4500;
+}
+
+/* Red-Orange */
+
+.feature-card h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.feature-card p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.why-graphic-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-graphic-col img {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+@media (max-width: 992px) {
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}
